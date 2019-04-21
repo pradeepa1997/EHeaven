@@ -76,6 +76,3 @@ object as{
 	}
 	
 }
-//sachin tharuka sandeep muthumala
-
-//hellow worlad
