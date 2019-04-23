@@ -1,28 +1,44 @@
 <link rel="stylesheet" href="css/style.css">
 
-<body>
-<div class="wrapper fadeInDown">
-    <div id="formContent">
-        <!-- Tabs Titles -->
-
-        <!-- Icon -->
-        <div class="fadeIn first">
-            <img src="images/logo.png" id="icon" alt="User Icon" />
+<body style="height: 100%">
+    <div class="container-fluid" style="background-color: #FFB300">
+        <div>
+            <img src="images\logo.png" style="height: 70px; margin: 10px"/>
         </div>
-
-        <!-- Login Form -->
-        <form>
-            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-            <input type="submit" class="fadeIn fourth" value="Log In">
-        </form>
-
-        <!-- Remind Passowrd -->
-        <div id="formFooter">
-            <a class="underlineHover" href="#">Forgot Password?</a>
-        </div>
-
     </div>
-</div>
+    <div class="container-fluid">            
+        <div class="row" id="section1">               
+            <div class="col-md-7 fadeInDown " style="padding-left:50px">  
+                <div>
+                    <img class="school fadeInDown" src="images/school.jpg"/>
+                </div>
+            <div>
+                <h1 class="fadeInDown" style="padding-top: 10px">St. Jhon's Collage, Nugegoda</h1>
+                <p class="fadeInDown" style="padding-top: 10px; padding-right:40px ">St. John's College, started in 1915 and is the only boys' school in Nugegoda, 
+                    Sri Lanka. It contains two primary sections and upper school. Nugegoda had no 
+                    English School until 1915. St. John's School commenced with 14 pupils on 5 May 
+                    1915. In 1934, the mixed school of St. John's was separated into separate Boys 
+                    and Girls schools, with the boys school known as the College of St. John, Nugeogda.</p>
+            </div>
+            </div>
+            <div class="col-md-1 vl fadeInDown">    
+            </div>
+
+            <div class="col-md-4 wrapper fadeInDown">
+                <div id="formContent">
+                    <form style="padding-top: 60px">
+                        <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+                        <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+                        <input type="submit" class="fadeIn fourth" value="Log In">
+                    </form>
+
+                    <!-- Remind Passowrd -->
+                    <div id="formFooter">
+                        <a class="underlineHover" href="#">Forgot Password?</a>
+                    </div>
+                </div>
+            </div>   
+        </div>  
+    </div>
 
 </body>
