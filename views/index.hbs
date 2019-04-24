@@ -1,7 +1,9 @@
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/index.css">
 
 <body style="height: 100%">
-    <div class="container-fluid" style="background-color: #FFB300">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container-fluid" style="background-color: #388E3C">
         <div>
             <img src="images\logo.png" style="height: 70px; margin: 10px"/>
         </div>
@@ -26,13 +28,12 @@
 
             <div class="col-md-4 wrapper fadeInDown">
                 <div id="formContent">
-                    <form style="padding-top: 60px">
+                    <form style="padding-top: 60px" action="/users" method="post">
                         <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
                         <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
                         <input type="submit" class="fadeIn fourth" value="Log In">
                     </form>
 
-                    <!-- Remind Passowrd -->
                     <div id="formFooter">
                         <a class="underlineHover" href="#">Forgot Password?</a>
                     </div>
@@ -40,5 +41,8 @@
             </div>   
         </div>  
     </div>
+    </div>
+    </div>
+    
 
 </body>
