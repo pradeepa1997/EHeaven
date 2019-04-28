@@ -1,46 +1,39 @@
 <link rel="stylesheet" href="css/index.css">
 
-<body style="height: 100%">
+<body style="height: 100% ;background-image: url(Images/index_background.png)">
     <div class="container-fluid">
         <div class="row">
-            <div class="container-fluid" style="background-color: #388E3C">
-        <div>
-            <img src="images\logo.png" style="height: 70px; margin: 10px"/>
+                <div class="col-sm-6">
+                    <img src="images\logo.png" style="height: 70px; margin: 10px"/>
+                </div>
+                <div class="col-sm-5"></div>
+                <div class="col-sm-1">
+                    <form action="/users" method="post">
+                        <input type="submit" class="login-icon" value="Log In">
+                    </form>
+                    
+                </div>
         </div>
     </div>
+
     <div class="container-fluid">            
         <div class="row" id="section1">               
-            <div class="col-md-7 fadeInDown " style="padding-left:50px;background-image: url(Images/index_child.png)">  
+            <div class="col-md-6 image" style="background-image: url(Images/index_child.png)">  
+            </div>
+
+            <div class="col-md-1 vl">    
+            </div>
+
+            <div class="col-md-5" style="padding-top: 100px">
                 
-            <div>
-                <h1 class="fadeInDown" style="padding-top: 10px">St. Jhon's Collage, Nugegoda</h1>
-                <p class="fadeInDown" style="padding-top: 10px; padding-right:40px;text-align: justify">St. John's College, started in 1915 and is the only boys' school in Nugegoda, 
+                <p class="school">St. Jhon's Collage, Nugegoda</p>
+                <p class="school-des">St. John's College, started in 1915 and is the only boys' school in Nugegoda, 
                     Sri Lanka. It contains two primary sections and upper school. Nugegoda had no 
-                    English School until 1915. St. John's School &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;commenced with 14 pupils on 5 May 
-                    1915. In 1934, the mixed school&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;of St. John's was separated into separate Boys 
-                    and Girls schools,with &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;the boys school known as the College of St. John, Nugeogda.</p>
+                    English School until 1915. St. John's School commenced with 14 pupils on 5 May 
+                    1915. In 1934, the mixed school of St. John's was separated into separate Boys 
+                    and Girls schools,with the boys school known as the College of St. John, Nugeogda.</p>
             </div>
-            </div>
-            <div class="col-md-1 vl fadeInDown">    
-            </div>
-
-            <div class="col-md-4 wrapper fadeInDown">
-                <div id="formContent">
-                    <form style="padding-top: 60px" action="/users" method="post">
-                        <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-                        <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-                        <input type="submit" class="fadeIn fourth" value="Log In">
-                    </form>
-
-                    <div id="formFooter">
-                        <a class="underlineHover" href="#">Forgot Password?</a>
-                    </div>
-                </div>
-            </div>   
         </div>  
     </div>
-    </div>
-    </div>
-    
 
 </body>
