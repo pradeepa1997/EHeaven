@@ -9,4 +9,5 @@ router.get('/', function(req, res, next) {
 router.post('/login', function (req, res) {
     res.render('login',{title: 'EHeaven' });
 });
+
 module.exports = router;
