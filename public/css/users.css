@@ -9,7 +9,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #388E3C;
+    background-color: #0a1920;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -39,14 +39,14 @@ body {
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #388E3C;
+    background-color: #0a1920;
     color: white;
     padding: 10px 15px;
     border: none;
   }
   
   .openbtn:hover {
-    background-color: rgb(28, 70, 30);
+    background-color: #0d0d0d;
   }
   
   #main {

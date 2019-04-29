@@ -36,14 +36,15 @@ router.post('/users', function (req,res) {
     console.log(password);
 
     if(username && password){
-        connection.query('SELECT * FROM sachin_test WHERE username = ?',[username],function (err,rows,fields) {
+        connection.query('SELECT * FROM logintable WHERE UserID = ?',[username],function (err,rows,fields) {
 
-            if(rows[0].password != password){
-                password.bold();
+            if(rows[0].Password != password){
+                console.log("Somthing error!");
+                res.render('\login',{title:'Loging error!'});
             }
             else{
                 console.log("correct login");
-                res.render('users',{username:rows});
+                res.render('users',{title:'Eheaven',username:rows});
             }
         });
     }
