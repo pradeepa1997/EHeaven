@@ -37,14 +37,9 @@ router.post('/users', function (req,res) {
 
     if(username && password){
         connection.query('SELECT * FROM sachin_test WHERE username = ?',[username],function (err,rows,fields) {
-            console.log("----------------------------------------------");
-            console.log(rows);
-            console.log("----------------------------------------------");
-            console.log(err);
 
             if(rows[0].password != password){
-                res.redirect('/');
-                document.getElementById('error').textContent = 'Login error';
+                password.bold();
             }
             else{
                 console.log("correct login");
